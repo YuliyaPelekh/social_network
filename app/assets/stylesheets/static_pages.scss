@@ -1,3 +1,38 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.main-container{
+	margin: 60px 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding: 10px 50px;
+  border-top: 1px solid #eaeaea;
+  color: gray;
+  a {
+  color: #555;
+    &:hover {
+      color: #222;
+  }}
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none; 
+    li {
+      float: left;
+      margin-left: 10px;
+   }}}
