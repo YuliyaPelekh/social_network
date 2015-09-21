@@ -1,0 +1,1775 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>Releases · sqlitebrowser/sqlitebrowser · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="sqlitebrowser/sqlitebrowser" name="twitter:title" /><meta content="sqlitebrowser - Official home of the DB Browser for SQLite (DB4S) project. Previously known as &quot;SQLite Database Browser&quot; and &quot;Database Browser for SQLite&quot;. Website at: " name="twitter:description" /><meta content="https://avatars3.githubusercontent.com/u/7454271?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars3.githubusercontent.com/u/7454271?v=3&amp;s=400" property="og:image" /><meta content="sqlitebrowser/sqlitebrowser" property="og:title" /><meta content="https://github.com/sqlitebrowser/sqlitebrowser" property="og:url" /><meta content="sqlitebrowser - Official home of the DB Browser for SQLite (DB4S) project. Previously known as &quot;SQLite Database Browser&quot; and &quot;Database Browser for SQLite&quot;. Website at: " property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_releases" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+        <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="D45A3C43:7D83:94C56EB:5600428D" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, releases#index" data-pjax-transient="true" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+      <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
+<meta content="3fiNtOIp73I0Kmf1oFB7tjk3xZhWoxecQiR94K3Ns0lmIH3/lUpC5ZP4bmknDzlQeevwA++O1j6QXK+jf9YbGw==" name="csrf-token" />
+    
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-aef3088517c60128e10c5cce8d392985504018745a58a13691f1a278951852bb.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-eba1f472eb1c7c893e4310c05138905845443f7f2469812a9bd2ba71aa488cc5.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="87dbf4dad0b70976ed64b3bf4976701e">
+
+        <link href="https://github.com/sqlitebrowser/sqlitebrowser/releases.atom" rel="alternate" title="sqlitebrowser Release Notes" type="application/atom+xml" />
+  <link href="https://github.com/sqlitebrowser/sqlitebrowser/tags.atom" rel="alternate" title="sqlitebrowser Tags" type="application/atom+xml" />
+
+  <meta name="description" content="sqlitebrowser - Official home of the DB Browser for SQLite (DB4S) project. Previously known as &quot;SQLite Database Browser&quot; and &quot;Database Browser for SQLite&quot;. Website at: ">
+  <meta name="go-import" content="github.com/sqlitebrowser/sqlitebrowser git https://github.com/sqlitebrowser/sqlitebrowser.git">
+
+  <meta content="7454271" name="octolytics-dimension-user_id" /><meta content="sqlitebrowser" name="octolytics-dimension-user_login" /><meta content="19416551" name="octolytics-dimension-repository_id" /><meta content="sqlitebrowser/sqlitebrowser" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="19416551" name="octolytics-dimension-repository_network_root_id" /><meta content="sqlitebrowser/sqlitebrowser" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/sqlitebrowser/sqlitebrowser/commits/master.atom" rel="alternate" title="Recent Commits to sqlitebrowser:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fsqlitebrowser%2Fsqlitebrowser%2Freleases" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/sqlitebrowser/sqlitebrowser/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/sqlitebrowser/sqlitebrowser/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/pricing" data-ga-click="(Logged out) Header, go to pricing, text:pricing">Pricing</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+
+      <div class="container">
+
+        <div class="clearfix">
+          
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fsqlitebrowser%2Fsqlitebrowser"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/sqlitebrowser/sqlitebrowser/watchers">
+    161
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fsqlitebrowser%2Fsqlitebrowser"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/sqlitebrowser/sqlitebrowser/stargazers">
+      2,397
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fsqlitebrowser%2Fsqlitebrowser"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+
+    <a href="/sqlitebrowser/sqlitebrowser/network" class="social-count">
+      340
+    </a>
+  </li>
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="mega-octicon octicon-repo"></span>
+  <span class="author"><a href="/sqlitebrowser" class="url fn" itemprop="url" rel="author"><span itemprop="title">sqlitebrowser</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/sqlitebrowser/sqlitebrowser" data-pjax="#js-repo-pjax-container">sqlitebrowser</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline ">
+        <div class="repository-sidebar clearfix">
+          
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/sqlitebrowser/sqlitebrowser/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/sqlitebrowser/sqlitebrowser" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /sqlitebrowser/sqlitebrowser">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/sqlitebrowser/sqlitebrowser/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /sqlitebrowser/sqlitebrowser/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/sqlitebrowser/sqlitebrowser/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /sqlitebrowser/sqlitebrowser/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Wiki">
+        <a href="/sqlitebrowser/sqlitebrowser/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /sqlitebrowser/sqlitebrowser/wiki">
+          <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/sqlitebrowser/sqlitebrowser/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /sqlitebrowser/sqlitebrowser/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/sqlitebrowser/sqlitebrowser/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /sqlitebrowser/sqlitebrowser/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+            <div class="only-with-full-nav">
+                
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/sqlitebrowser/sqlitebrowser.git" readonly="readonly" aria-label="HTTPS clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/sqlitebrowser/sqlitebrowser" readonly="readonly" aria-label="Subversion checkout URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="a64b0565281dc44fe122f977458556fc8897e62f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="n9fpNIw6vfK4Fi3She4/jUjvhKtVzr89dhs0kjSiQ1HCsW8TZz+oDopOyRJlKWUHGhfCco2BNtsOZOgYc8+0pA==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="a64b0565281dc44fe122f977458556fc8897e62f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="rOXO4TA9hxRGL1OHP/xuGnWRnvs5g4ak6id5rQz5seiFStvUFcxXpnVo0cwYIcCoH7/6jo2ALW+CsosorYX3zg==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+
+              <a href="/sqlitebrowser/sqlitebrowser/archive/master.zip"
+                 class="btn btn-sm sidebar-button"
+                 aria-label="Download the contents of sqlitebrowser/sqlitebrowser as a zip file"
+                 title="Download the contents of sqlitebrowser/sqlitebrowser as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div>
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+
+<div class="subnav" data-pjax>
+  <div class="subnav-links left" role="navigation">
+  <a href="/sqlitebrowser/sqlitebrowser/releases" aria-selected="true" class="js-selected-navigation-item selected subnav-item" data-selected-links="repo_releases /sqlitebrowser/sqlitebrowser/releases">Releases</a>
+  <a href="/sqlitebrowser/sqlitebrowser/tags" class="js-selected-navigation-item subnav-item" data-selected-links="repo_tags /sqlitebrowser/sqlitebrowser/tags">Tags</a>
+</div>
+
+
+  <div class="right">
+  </div>
+</div>
+
+<div class="release-timeline">
+
+
+
+      <div class="release label-latest">
+  <div class="release-meta">
+    <span class="release-label latest">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/latest">Latest release</a>
+    </span>
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/v3.7.0" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">v3.7.0</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/3cefaf44765ce18f4dfb39ef381b91236486a618">
+            <span class="octicon octicon-git-commit"></span>
+            3cefaf4
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/v3.7.0">DB Browser for SQLite 3.7.0</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@MKleusberg" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/3153504?v=3&amp;s=40" width="20" />
+        <a href="/MKleusberg">MKleusberg</a>
+        released this
+          <time datetime="2015-06-14T10:28:10Z" is="relative-time">Jun 14, 2015</time>
+
+          &middot;
+
+          <a href="/sqlitebrowser/sqlitebrowser/compare/v3.7.0...master">
+            65 commits</a>
+          to master
+          since this release
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <p>Whilst it is not so long since the release of 3.6.0 this new version contains some important enhancements, and fixes issues that are getting filed a lot. Specifically UTF-8 characters in the SQL Editor window and Windows dependency installation issues.</p>
+
+<p>Please note that with any new translation you will need to manually select it in the preferences if you have used an earlier version, however fresh installs should detect the new translation.</p>
+
+<h2>Enhancements</h2>
+
+<ul>
+<li>Remove superfluous whitespace from Schema column in DB Structure view - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/283" class="issue-link" title="Interface (Database Structure, DB Schema) are wonky with large CREATE TABLE statements">#283</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Add option to remember last location for file dialogs - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/224" class="issue-link" title="Default Directory After Opening a DB should be last Successful opened Directory">#224</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/276" class="issue-link" title="Open Database">#276</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/281" class="issue-link" title="Open Database action doesn't remeber last opened folder">#281</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Add option for setting the font used in the SQL code editor - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/299" class="issue-link" title="feature request: sql editor font selection">#299</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Preserve filters in Browse Data tab when changing tabs - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/305" class="issue-link" title='Preserve "Browse Data" field filters when switching tabs'>#305</a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>Allow setting the line type and the point shape in the plot area - <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/317" class="issue-link" title="plot: lineType and pointShape options">#317</a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>Add a 'Copy Create statement' popup action to Database Browser tab - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/140" class="issue-link" title="No Access to SQL-Statement of View">#140</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+</ul>
+
+<h2>Bug fixes</h2>
+
+<ul>
+<li>Fix UTF-8 characters in SQL code editor - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/282" class="issue-link" title="SQL Editor area displays non-ascii symbols incorrectly - wtih '?' symbol">#282</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Make sure to always show text data (instead of 'BLOB') in Browse Data tab no matter the column's data type in the table definition - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/517ecec18bf53513fe3fef0ae7d6b1acf880f00e" class="commit-link"><tt>517ecec</tt></a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>EditTableDialog: Add '=' in front of default value when it is a function - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/166" class="issue-link" title="Functiones como DEFAULT de campos">#166</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Fix a couple of typos - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/abc432fcd63a8d593335cc13e2ff9c7263119f55" class="commit-link"><tt>abc432f</tt></a> (thanks to <a href="https://github.com/mafagafogigante" class="user-mention">@mafagafogigante</a>)</li>
+<li>Fix incorrect extra ');' after create table statement in exported SQL - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/349" class="issue-link" title="incorrect CREATE TABLE ending in sql export">#349</a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>Regexp cannot handle NULL text - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/353" class="issue-link" title="Regexp cannot handle NULL text">#353</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+</ul>
+
+<h2>Updated translations</h2>
+
+<ul>
+<li>Update Russian translation - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/07af4b6862c7939103e78b45cdca9800be4d8ee9" class="commit-link"><tt>07af4b6</tt></a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>Add a Brazilian Portuguese translation - <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/328" class="issue-link" title="Brazilian Portuguese translation.">#328</a> (thanks to <a href="https://github.com/mafagafogigante" class="user-mention">@mafagafogigante</a>)</li>
+<li>Add an English (United Kingdom) translation - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/0f68c85d4cecdc9bacce3cf12cc5300041142834" class="commit-link"><tt>0f68c85</tt></a> (thanks to <a href="https://github.com/glawrence" class="user-mention">@glawrence</a>)</li>
+</ul>
+
+<h2>For packagers</h2>
+
+<ul>
+<li>Fix encoding in CSV test cases - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/584f5d66bb0c50befec1b01658b0a37e6c2f90b9" class="commit-link"><tt>584f5d6</tt></a> (thanks to <a href="https://github.com/pinotree" class="user-mention">@pinotree</a>)</li>
+<li>Restructure tests - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/57f2622e34df48d0901243b098f1447b5f260803" class="commit-link"><tt>57f2622</tt></a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/27df9cfa4d7e9607dfdb32230888cd990d3a359f" class="commit-link"><tt>27df9cf</tt></a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/e8b9de3212579436fe26becc45c6b05d7242fba8" class="commit-link"><tt>e8b9de3</tt></a> (thanks to <a href="https://github.com/pinotree" class="user-mention">@pinotree</a>)</li>
+<li>Use an external antlr2 library if available - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ae08f772a2e404c39ad9d11eaf775403697f55c7" class="commit-link"><tt>ae08f77</tt></a> (thanks to <a href="https://github.com/pinotree" class="user-mention">@pinotree</a>)</li>
+<li>Include translations in application resources - <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/310" class="issue-link" title="fix: translations are not being installed via make install">#310</a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+</ul>
+
+<h2>Windows release</h2>
+
+<ul>
+<li>Add support for Windows XP again - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/4f3855e7c8e08bbc70164e04005cd837fd445a98" class="commit-link"><tt>4f3855e</tt></a> (thanks to <a href="https://github.com/rp-" class="user-mention">@rp-</a>)</li>
+<li>Install the vcredist package during installation - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/d99d83f269e4f942e9e3dddba5b417005e4191b7" class="commit-link"><tt>d99d83f</tt></a> (thanks to <a href="https://github.com/rp-" class="user-mention">@rp-</a>)</li>
+</ul>
+
+<h2>Special thanks</h2>
+
+<ul>
+<li>
+<a href="https://github.com/glawrence" class="user-mention">@glawrence</a> - (One of our two new team members) for your awesome Community spirit, and the excellent wiki pages you're creating. <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle">
+</li>
+<li>
+<a href="https://github.com/schdub" class="user-mention">@schdub</a> - (Our newest team member) for the Russian translations, much coding, and (hopefully) the upcoming ER bits. <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20" align="absmiddle">
+</li>
+<li>
+<a href="https://github.com/Z4us" class="user-mention">@Z4us</a> - For helping out with our issues.  Especially the more technical sqlite database ones. <img class="emoji" title=":grinning:" alt=":grinning:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f600.png" height="20" width="20" align="absmiddle"> </li>
+<li>
+<a href="https://github.com/deepsidhu1313" class="user-mention">@deepsidhu1313</a> and <a href="https://github.com/lbartoletti" class="user-mention">@lbartoletti</a> - For packaging and porting DB4S on Ubuntu and FreeBSD. <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle">
+</li>
+</ul>
+
+<h2>Other notes</h2>
+
+<ul>
+<li>MacOS X builds
+
+<ul>
+<li>The standard SQLite build bundles SQLite 3.8.10.2</li>
+<li>The build including SQLCipher support bundles SQLCipher 3.2.0 (based on SQLite 3.8.6)</li>
+</ul>
+</li>
+</ul>
+
+<h2>SHA256SUMS</h2>
+
+<ul>
+<li>sqlitebrowser-3.7.0-win32.exe
+
+<ul>
+<li>dd61e4a9458f89016a100da51bbdef636a9c907c2daae424ab61a5a5c468d189</li>
+</ul>
+</li>
+<li>sqlitebrowser-3.7.0-win64.exe
+
+<ul>
+<li>614dbb321d10bef847cdfbd893a801b9b4db3d04feb7026b3b7711cd968b9424</li>
+</ul>
+</li>
+<li>sqlitebrowser-3.7.0.dmg
+
+<ul>
+<li>421dc0d64a61f393bee6a482bc32fbdce4b4cdab6f5be10e9214624604079bbb</li>
+</ul>
+</li>
+<li>sqlitebrowser-with_sqlcipher_support-3.7.0.dmg
+
+<ul>
+<li>37fa7dca77bad0cf14616f44538f2fb9372d97310be3017a57d1045051faf9b3</li>
+</ul>
+</li>
+<li>SQLiteDatabaseBrowserPortable_3.7.0_English.paf.exe
+
+<ul>
+<li>bb10b8c76a7b8d70fe3fc03de12f67414cf990d55dfeb6d01247af9b951847fc</li>
+</ul>
+</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.7.0/sqlitebrowser-3.7.0-win32.exe" rel="nofollow">
+              <small class="text-muted right">18.4 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.7.0-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.7.0/sqlitebrowser-3.7.0-win64.exe" rel="nofollow">
+              <small class="text-muted right">20.5 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.7.0-win64.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.7.0/sqlitebrowser-3.7.0.dmg" rel="nofollow">
+              <small class="text-muted right">8.23 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.7.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.7.0/sqlitebrowser-with_sqlcipher_support-3.7.0.dmg" rel="nofollow">
+              <small class="text-muted right">9.38 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-with_sqlcipher_support-3.7.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.7.0/SQLiteDatabaseBrowserPortable_3.7.0_English.paf.exe" rel="nofollow">
+              <small class="text-muted right">26.4 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>SQLiteDatabaseBrowserPortable_3.7.0_English.paf.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.7.0.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.7.0.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+
+
+      <div class="release label-">
+  <div class="release-meta">
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/v3.6.0" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">v3.6.0</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/e7033444be7e98b0a285aefe3a20fa6d78d271ca">
+            <span class="octicon octicon-git-commit"></span>
+            e703344
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/v3.6.0">DB Browser for SQLite 3.6.0</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@MKleusberg" class="avatar" height="20" src="https://avatars0.githubusercontent.com/u/3153504?v=3&amp;s=40" width="20" />
+        <a href="/MKleusberg">MKleusberg</a>
+        released this
+          <time datetime="2015-04-27T09:31:47Z" is="relative-time">Apr 27, 2015</time>
+
+          &middot;
+
+          <a href="/sqlitebrowser/sqlitebrowser/compare/v3.6.0...v3.6.x">
+            2 commits</a>
+          to v3.6.x
+          since this release
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <p><strong>NOTE - On windows, if you get an error message about MSVCP120.dll being missing, then you need to install the (free) Microsoft Visual C++ Redistributable Packages for Visual Studio 2013, available <a href="https://www.microsoft.com/en-us/download/details.aspx?id=40784">here</a>.  It's pretty easy. <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20" align="absmiddle"></strong></p>
+
+<h1>Release 3.6.0 is here!</h1>
+
+<p>After a LOOONG wait (over two and a half months!) version 3.6.0 is ready for your use.</p>
+
+<p>This is a very big update - including our very first 64-bit windows build - with tonnes of usability enhancements, bug fixes, and many improvements.  You'll want to upgrade to this. <img class="emoji" title=":grinning:" alt=":grinning:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f600.png" height="20" width="20" align="absmiddle"></p>
+
+<h2>Major new features are...</h2>
+
+<ul>
+<li>Our first 64-bit windows release!  If you notice any weirdness from it, <strong>please</strong> <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/new">let us know</a>. <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle">
+</li>
+<li>Now using Scintilla for our code editor which brings many nice improvements like brace matching, code folding, error highlighting, multi-line tab and shift+tab, better code completion, help texts, etc.</li>
+<li>Better SQL export</li>
+<li>REGEXP support (<a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki/Regular-Expressions">see the wiki page for details...</a>)</li>
+<li>NULL value highlighting - customisable in the preferences
+<a href="https://cloud.githubusercontent.com/assets/406299/6607680/8dcc2530-c838-11e4-9765-6af42f7b4d3d.png" target="_blank"><img src="https://cloud.githubusercontent.com/assets/406299/6607680/8dcc2530-c838-11e4-9765-6af42f7b4d3d.png" alt="screen shot 2015-03-11 at 21 49 42" style="max-width:100%;"></a>
+</li>
+</ul>
+
+<h2>Enhancements</h2>
+
+<ul>
+<li>Highlight NULL values in all table views and make the highlighting configurable - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/163" class="issue-link" title="NULL field values are not highlighted">#163</a> and <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/220" class="issue-link" title="Default background colour for NULL fields needs adjusting">#220</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Use Scintilla as code editor - <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/260" class="issue-link" title="Use Qscintilla instead of implementing our own code editor">#260</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Allow manually setting the application language in the Preferences Dialog - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/182" class="issue-link" title="Ability to change language">#182</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Pressing tab on last field of "Browse Data" now auto-creates a new record, making it faster to add new rows - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/209" class="issue-link" title='Pressing tab on last field of "Browse Data" should auto-create new record'>#209</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Added an AppData file for all the Linux software centres - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/178" class="issue-link" title="Please create an AppData file for sqlitebrowser">#178</a> (thanks to <a href="https://github.com/glawrence" class="user-mention">@glawrence</a>)</li>
+<li>Add an option for the tab size in the SQL code editor - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/d8cdcbd5726112b84cb310f2cb17d7d7ef3e2c8b" class="commit-link"><tt>d8cdcbd</tt></a> (thanks to <a href="https://github.com/rp-" class="user-mention">@rp-</a>)</li>
+<li>Add option to name the columns in the SQL export files - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/242" class="issue-link" title="Export sql doesn't name insert columns">#242</a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>Allow schema only export when exporting SQL files - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/103" class="issue-link" title="Export Database or Table to SQL or CSV - allow export schema only">#103</a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>Allow resizing multiple columns at once in the Browse Data tab - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/241" class="issue-link" title="feature request: resize multiple cols and rows in 1 go in the main QTableView">#241</a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>Mark syntax errors in the Execute SQL tab after their execution failed - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/649b1790e54c091b354ea7cdcd33fb7a259137a4" class="commit-link"><tt>649b179</tt></a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Data browsing using Database Structure table selection - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/246" class="issue-link" title="Feature request: Data browsing using Database Structure table selection">#246</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Add support for non-integer primary keys in Without Rowid tables - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/240" class="issue-link" title="WITHOUT ROWID for TEXT column">#240</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Add option to Preferences Dialog to disable automatic version check - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/173" class="issue-link" title="Phones home">#173</a> and <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/208" class="issue-link" title="Windows version always checking for new version">#208</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Improve error messages a little bit - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/3c243978e79a6f390fe0907f74668217286a4a30" class="commit-link"><tt>3c24397</tt></a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b2b068f33c79fe8c668b035de17530f3605007ce" class="commit-link"><tt>b2b068f</tt></a>, and <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/808c771d4e395a23e2821c6400aeae56830870fc" class="commit-link"><tt>808c771</tt></a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Add support for CR line ending in the CSV import - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/212" class="issue-link" title="Please add support for CR line endings">#212</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Add implementation for the REGEXP operator in SQL code - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/215" class="issue-link" title="Add (Qt) REGEXP support for the Execute SQL tab">#215</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Allow copying information in About dialog - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/222" class="issue-link" title="Enhancement Request, Allow Copy to info in About DB Browser OSX Version">#222</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Set focus to text edit after clearing in Edit Data dialog - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/50c034012f03d3eb76af297cca7d8a6d01bc3708" class="commit-link"><tt>50c0340</tt></a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Support MSVC2013 builds - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/8cbc13a106a680e7e1ce97e2e49bb85eb80e9d8f" class="commit-link"><tt>8cbc13a</tt></a> (thanks to <a href="https://github.com/rp-" class="user-mention">@rp-</a>)</li>
+</ul>
+
+<h2>Bug fixes</h2>
+
+<ul>
+<li>Some translations had the Preferences menu in the wrong place on OSX - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/200" class="issue-link" title="Some translations have the Preferences menu in the wrong place on OSX">#200</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Fix new version check - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/2c25b7ecb52944db225516a9b41c9f6c1860e749" class="commit-link"><tt>2c25b7e</tt></a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Fix +Infinite and -Infinite Expression on Export Database to SQL file - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/244" class="issue-link" title="+Infinite and -Infinite Expression on Export Database to SQL file">#244</a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>Fix type of imported BLOB data - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/239" class="issue-link" title="Type of imported BLOB data">#239</a> (thanks to <a href="https://github.com/schdub" class="user-mention">@schdub</a>)</li>
+<li>Modify Table list selection could be 'fooled' by dragging - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/261" class="issue-link" title="Modify Table list selection can be 'fooled' by dragging">#261</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>There were no file format filters in the Open File dialog when opening a database file - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/266" class="issue-link" title="File Filter In The FileOpenDialog">#266</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Escape special characters in headers and values correctly in CSV export - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/219" class="issue-link" title="Export of table to CSV from database table doesn't align columns and rows correctly">#219</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Grammar parser didn't read foreign key column constraints - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/227" class="issue-link" title="Grammar parser doesn't read foreign key column constraints">#227</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Fix crash when having a table with a foreign key referencing a column the name of which uses different upper/lower case characters - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/228" class="issue-link" title="Browser just crashes after executing this query">#228</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Disable actions to save SQL when no file is open - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/233" class="issue-link" title="Small bug causes crash">#233</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Don't add file filters on OS X in Edit Data dialog to work around a Qt bug - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/230" class="issue-link" title="File type selector for blob import isn't working correctly on OSX">#230</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Fix bug where sort arrows in the Browse Data tab were pointing in the wrong direction - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/231" class="issue-link" title="Sort arrows are wrong direction">#231</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+</ul>
+
+<h2>Translations</h2>
+
+<ul>
+<li>Updated the French translation - <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/d6f9716cfda00389667fdd9176c32339ef7d49c0" class="commit-link"><tt>d6f9716</tt></a> (thanks to <a href="https://github.com/mvt91" class="user-mention">@mvt91</a>)</li>
+</ul>
+
+<h2>Other notes</h2>
+
+<ul>
+<li>New Windows builds
+
+<ul>
+<li>New 64-bit build</li>
+<li>Updated to QT 5.4.1 (shared dll)</li>
+<li>Bundles SQLite 3.8.9</li>
+<li>Requires the (free) Microsoft Visual C++ Redistributable Packages for Visual Studio 2013 to be installed, <a href="https://www.microsoft.com/en-us/download/details.aspx?id=40784">available here</a>.</li>
+</ul>
+</li>
+<li>MacOS X builds
+
+<ul>
+<li>The standard SQLite build bundles SQLite 3.8.9</li>
+<li>The build including SQLCipher support bundles SQLCipher 3.2.0 (based on SQLite 3.8.6)</li>
+</ul>
+</li>
+</ul>
+
+<h2>Special thanks</h2>
+
+<ul>
+<li>
+<a href="https://github.com/glawrence" class="user-mention">@glawrence</a> for writing wiki pages, helping our with issues, and getting his first commit done for the AppData issue! <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20" align="absmiddle">
+</li>
+<li>
+<a href="https://github.com/richardfontana" class="user-mention">@richardfontana</a> for helping us with legal pointers!</li>
+<li>
+<a href="https://github.com/lbartoletti" class="user-mention">@lbartoletti</a> for updating the FreeBSD port.</li>
+<li>
+<a href="https://github.com/deepsidhu1313" class="user-mention">@deepsidhu1313</a> for volunteering to package .debs for our releases.</li>
+<li>
+<a href="https://github.com/Z4us" class="user-mention">@Z4us</a> for answering people's questions and generally being helpful <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle">
+</li>
+<li>
+<a href="https://github.com/cbredesen" class="user-mention">@cbredesen</a> for taking the time to compile a special 32-bit OSX build for us to help a DB4S Community member out</li>
+<li>And last but not least, thank you to all of the people who are suggesting ideas, or reporting issues and confirming back if the fixes work or not.  It really makes a positive difference!</li>
+</ul>
+
+<h2>SHA256SUMS</h2>
+
+<ul>
+<li>sqlitebrowser-3.6.0v3-win32.exe
+
+<ul>
+<li>d3edc5fd80a152c7d219ba8298d8c52b3dd8a87f6a4f5a9fb66f00e619bbabe5</li>
+</ul>
+</li>
+<li>sqlitebrowser-3.6.0v3-win64.exe
+
+<ul>
+<li>21c406468ed6f3a61909162a696602d6079c84d2c8cab96b61a9a24bde54e2c6</li>
+</ul>
+</li>
+<li>sqlitebrowser-3.6.0.dmg
+
+<ul>
+<li>6231a90898cf2189b5d9715e64a04d59c9f1aa83ca81501274ab03316f0adf06</li>
+</ul>
+</li>
+<li>sqlitebrowser-with_sqlcipher_support-3.6.0.dmg
+
+<ul>
+<li>580c439c8c43bd81adb234314ccb14a5972e3a4222287428f175b0f67fcd6ccf</li>
+</ul>
+</li>
+<li>SQLiteDatabaseBrowserPortable_3.6.0_English.paf.exe
+
+<ul>
+<li>d0288aca18b86efc6ef51d3e38f20632a637385a99a576bff4e0b7fb5530c7c8</li>
+</ul>
+</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.6.0/sqlitebrowser-3.6.0.dmg" rel="nofollow">
+              <small class="text-muted right">8.26 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.6.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.6.0/sqlitebrowser-3.6.0v3-win32.exe" rel="nofollow">
+              <small class="text-muted right">12.3 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.6.0v3-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.6.0/sqlitebrowser-3.6.0v3-win64.exe" rel="nofollow">
+              <small class="text-muted right">13.8 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.6.0v3-win64.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.6.0/sqlitebrowser-with_sqlcipher_support-3.6.0.dmg" rel="nofollow">
+              <small class="text-muted right">9.15 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-with_sqlcipher_support-3.6.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.6.0/SQLiteDatabaseBrowserPortable_3.6.0_English.paf.exe" rel="nofollow">
+              <small class="text-muted right">26.3 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>SQLiteDatabaseBrowserPortable_3.6.0_English.paf.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.6.0.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.6.0.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+
+
+      <div class="release label-">
+  <div class="release-meta">
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/v3.5.1" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">v3.5.1</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/1d1297734a0d53a021f442dbcb3f445241594ba7">
+            <span class="octicon octicon-git-commit"></span>
+            1d12977
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/v3.5.1">DB Browser for SQLite 3.5.1</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@rp-" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/689875?v=3&amp;s=40" width="20" />
+        <a href="/rp-">rp-</a>
+        released this
+          <time datetime="2015-02-08T10:24:07Z" is="relative-time">Feb 8, 2015</time>
+
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <p>This release fixes some important issues which showed up in v3.5.0 (just over a week ago).</p>
+
+<p>Also, the embedded version of SQLite on MacOS X has been updated to version 3.8.8.2, matching the windows version.</p>
+
+<h2>Bug fixes</h2>
+
+<ul>
+<li>Default Location field can't be changed in v3.5.0 on OSX - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/197" class="issue-link" title="Default Location field can't be changed in v3.5.0 on OSX">#197</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Crash when a table name is empty - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/194" class="issue-link" title="Crash when a table name is empty">#194</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>CSV Import bug - final row being missed - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/193" class="issue-link" title="CSV Import bug - final row being missed">#193</a> (thanks to <a href="https://github.com/rp-" class="user-mention">@rp-</a>)</li>
+<li>Attach database when main is encrypted - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/174" class="issue-link" title="Attach database when main is encrypted">#174</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Failure to delete some SQLite entries (.s3db) - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/172" class="issue-link" title="Failure to delete some SQLite entries (.s3db)">#172</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+</ul>
+
+<h2>Other notes</h2>
+
+<ul>
+<li>The MacOS X release has two potential downloads
+
+<ul>
+<li>One download uses "standard" SQLite (v3.8.8.2)</li>
+<li>The other download uses SQLCipher (v3.2.0) to give encryption support for your SQLite databases</li>
+<li>You only need to download one of them, not both <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle">
+</li>
+</ul>
+</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.5.1/sqlitebrowser-3.5.1-win32.exe" rel="nofollow">
+              <small class="text-muted right">9.61 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.5.1-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.5.1/sqlitebrowser-3.5.1.dmg" rel="nofollow">
+              <small class="text-muted right">7.89 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.5.1.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.5.1/sqlitebrowser-with_sqlcipher_support-3.5.1.dmg" rel="nofollow">
+              <small class="text-muted right">8.78 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-with_sqlcipher_support-3.5.1.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.5.1/SQLiteDatabaseBrowserPortable_3.5.1_English.paf.exe" rel="nofollow">
+              <small class="text-muted right">9.72 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>SQLiteDatabaseBrowserPortable_3.5.1_English.paf.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.5.1.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.5.1.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+
+
+      <div class="release label-">
+  <div class="release-meta">
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/v3.5.0" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">v3.5.0</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/634c51b05a8c4792f69184065f28e37821f67c12">
+            <span class="octicon octicon-git-commit"></span>
+            634c51b
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/v3.5.0">DB Browser for SQLite 3.5.0</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@rp-" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/689875?v=3&amp;s=40" width="20" />
+        <a href="/rp-">rp-</a>
+        released this
+          <time datetime="2015-01-30T18:48:06Z" is="relative-time">Jan 30, 2015</time>
+
+          &middot;
+
+          <a href="/sqlitebrowser/sqlitebrowser/compare/v3.5.0...v3.5.x">
+            15 commits</a>
+          to v3.5.x
+          since this release
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <p>DB Browser for SQLite v3.5.0 is now available for download! <img class="emoji" title=":grinning:" alt=":grinning:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f600.png" height="20" width="20" align="absmiddle"></p>
+
+<p>One of the major improvements in this release, is support for encrypted databases (for MacOS X and Linux only, not Windows yet).  This is done using the <a href="http://sqlcipher.net">SQLCipher</a> encryption library.</p>
+
+<p>In addition to that, there are a lot of significant bug fixes and general improvements.  It's definitely worth updating, if you're in doubt. <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle"></p>
+
+<h2>Enhancements</h2>
+
+<ul>
+<li> I18N - Simplified Chinese language support - <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/138" class="issue-link" title="I18N - Simplified Chinese">#138</a> (thanks to <a href="https://github.com/efreeking" class="user-mention">@efreeking</a>)</li>
+<li>Add tooltip for all table items - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/139" class="issue-link" title="Add tooltip for all table items">#139</a> (thanks to <a href="https://github.com/xiangxw" class="user-mention">@xiangxw</a> and <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Remember CSV export options - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/149" class="issue-link" title="Remember CSV export options">#149</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Distinguish Save and Save As when saving SQL files in the Execute SQL tab - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/152" class="issue-link" title="Remember last location in the Execute SQL file dialog">#152</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Add support for compiling on OS/2 - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/157" class="issue-link" title="Add support for compiling on OS/2">#157</a> (thanks to <a href="https://github.com/TeLLie" class="user-mention">@TeLLie</a>)</li>
+<li>Add two buttons to navigate to the head and the tail - <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/169" class="issue-link" title="Add two buttons to navigate to the head and the tail">#169</a> (thanks to <a href="https://github.com/yunfzhan" class="user-mention">@yunfzhan</a>)</li>
+<li>Compatibility with shadow build - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/175" class="issue-link" title="Compatibility with shadow build">#175</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+<li>Support Indices without sorting - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/176" class="issue-link" title="Support Indices without sorting">#176</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>FreeBSD Port - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/180" class="issue-link" title="FreeBSD Port ">#180</a> (thanks to <a href="https://github.com/lbartoletti" class="user-mention">@lbartoletti</a>)</li>
+</ul>
+
+<h2>Enhancements with progress, though more still needs to be done</h2>
+
+<ul>
+<li>Open Encrypted Database - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/12" class="issue-link" title="Open Encrypted Database">#12</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Add full support for tables without rowid - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/51" class="issue-link" title="Add full support for tables without rowid">#51</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>NULL field values are not highlighted - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/163" class="issue-link" title="NULL field values are not highlighted">#163</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Ability to change language - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/182" class="issue-link" title="Ability to change language">#182</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/187" class="issue-link" title="Add language combobox to the Preferences menu">#187</a> (thanks to <a href="https://github.com/samir-aguiar" class="user-mention">@samir-aguiar</a>)</li>
+</ul>
+
+<h2>Bug fixes</h2>
+
+<ul>
+<li>Foreign Key in Edit Create Table - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/109" class="issue-link" title="Foreign Key in Edit Create Table">#109</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>CSV export bug - Fields aren't automatically quoted when separator character is present in the data - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/144" class="issue-link" title="CSV export bug - Fields aren't automatically quoted when separator character is present in the data">#144</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>[feature request]"Execute SQL": clear output if query returns nothing - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/151" class="issue-link" title='[feature request]"Execute SQL": clear output if query returns nothing'>#151</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a>)</li>
+<li>Export to SQL INT Datatype Expression - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/156" class="issue-link" title="Export to SQL INT Datatype Expression">#156</a> (thanks to <a href="https://github.com/rp-" class="user-mention">@rp-</a>)</li>
+<li>Crash when opening db without rowid and composite primary key - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/159" class="issue-link" title="Crash when opening db without rowid and composite primary key">#159</a> (thanks to <a href="https://github.com/rp-" class="user-mention">@rp-</a>)</li>
+<li>Database Structure view: wrong parsing of CHECK constraints - <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/179" class="issue-link" title="Database Structure view: wrong parsing of CHECK constraints">#179</a> (thanks to <a href="https://github.com/MKleusberg" class="user-mention">@MKleusberg</a> )</li>
+<li>tests: fix QCoreApplication parameters <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/185" class="issue-link" title="tests: fix QCoreApplication parameters">#185</a>  (thanks to <a href="https://github.com/pinotree" class="user-mention">@pinotree</a>)</li>
+</ul>
+
+<h2>Other notes</h2>
+
+<ul>
+<li>The Windows release uses SQLite v3.8.8.2</li>
+<li>The MacOS X release has two potential downloads
+
+<ul>
+<li>One download uses "standard" SQLite (v3.8.8.1)</li>
+<li>The other download uses SQLCipher (v3.2.0) to give encryption support for your SQLite databases</li>
+<li>You only need to download one of them, not both <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle">
+</li>
+</ul>
+</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.5.0/sqlitebrowser-3.5.0-win32.exe" rel="nofollow">
+              <small class="text-muted right">9.61 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.5.0-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.5.0/sqlitebrowser-3.5.0.dmg" rel="nofollow">
+              <small class="text-muted right">7.84 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.5.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.5.0/sqlitebrowser-with_sqlcipher_support-3.5.0.dmg" rel="nofollow">
+              <small class="text-muted right">8.73 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-with_sqlcipher_support-3.5.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.5.0.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.5.0.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+
+
+      <div class="release label-">
+  <div class="release-meta">
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/v3.4.0" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">v3.4.0</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/0358faaa6c530c96914ad876a72d002a02966656">
+            <span class="octicon octicon-git-commit"></span>
+            0358faa
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/v3.4.0">DB Browser for SQLite 3.4.0</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@rp-" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/689875?v=3&amp;s=40" width="20" />
+        <a href="/rp-">rp-</a>
+        released this
+          <time datetime="2014-10-29T20:10:07Z" is="relative-time">Oct 29, 2014</time>
+
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <p>Our first release using the new(-ish) name of "DB Browser for SQLite". <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle"></p>
+
+<p>In this release, our CSV file import and export code has been extensively<br>
+modified for better RFC compatibility.  The CSV code has also been changed<br>
+to use a streaming approach (thanks Rene!) instead of loading everything<br>
+into memory first.  This allows the import and export of large data sets, which<br>
+previously crashed the application when it ran out of memory.</p>
+
+<p>Another important feature in this release is support for custom collation<br>
+sequences.  This lets people use SQLite3 databases copied from their Android<br>
+phone or tablet.  Previously, the database would load, but every operation<br>
+would error out with "No such collation sequence: LOCALIZED".  Should be<br>
+useful. <img class="emoji" title=":wink:" alt=":wink:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f609.png" height="20" width="20" align="absmiddle"></p>
+
+<p>Naturally this release has several other bug fixes and usability tweaks, plus<br>
+the bundled version of SQLite has been updated to the latest (v3.8.7).</p>
+
+<h2>Enhancements</h2>
+
+<ul>
+<li>Install icon to hicolor directory bug enhancement fix <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/136" class="issue-link" title="Install icon to hicolor directory">#136</a>
+</li>
+<li>Updated OSX 10.10 (Yosemite) support status to confirmed <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/134" class="issue-link" title="Yosemite status added.">#134</a> </li>
+<li>Updated Linux support status to confirmed <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/72" class="issue-link" title="Linux instructions?">#72</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/111" class="issue-link" title="Linux support?">#111</a> </li>
+<li>&lt;tab&gt; key to move to next filter <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/106" class="issue-link" title="&lt;tab&gt; key to move to next filter">#106</a> </li>
+<li>Fixed the new compile warnings on OSX <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/102" class="issue-link" title="New compile warnings on OSX">#102</a>
+</li>
+<li>Access more than one database <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/100" class="issue-link" title="Access more than one database">#100</a>
+</li>
+<li>Add extra path to make it compile on FreeBSD <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/93" class="issue-link" title="Add extra path to make it compile on FreeBSD">#93</a>
+</li>
+<li>No such collation sequence: LOCALIZED <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/54" class="issue-link" title="No such collation sequence: LOCALIZED">#54</a> </li>
+<li>French translation thanks to <a href="https://github.com/mvt91" class="user-mention">@mvt91</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/92" class="issue-link" title="Initial French translation from Michel VERET">#92</a>
+</li>
+<li>Allow custom types in edit table dialog <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/108" class="issue-link" title="Cannot set a custom field type">#108</a>
+</li>
+<li>Improve handling of default values in the edit table dialog <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/64" class="issue-link" title="Modify table fails with more than one field with default values">#64</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/126" class="issue-link" title="When Using the Modify table dialog the table schema isn't updated when any column in the table has a DEFAULT value">#126</a>
+</li>
+<li>Improve database structure view <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/7b6bee11e5d5de0d72808939047242b3a2797393" class="commit-link"><tt>7b6bee1</tt></a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9207e46a5e00206141277b3c50e1f1cf3732d207" class="commit-link"><tt>9207e46</tt></a>
+</li>
+</ul>
+
+<h2>Bug Fixes</h2>
+
+<ul>
+<li>Exporting Text fields should always use quotation marks <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/135" class="issue-link" title="Exporting Text fields should always use quotation marks">#135</a>
+</li>
+<li>Insert data problem with NOT NULL <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/110" class="issue-link" title="Insert data problem with NOT NULL">#110</a>
+</li>
+<li>Table export to CSV crashes for large tables with out-of-memory exception <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/107" class="issue-link" title="Table export to CSV crashes for large tables with out-of-memory exception.">#107</a>
+</li>
+<li>Refresh Button clears filters <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/105" class="issue-link" title="Refresh Button clears filters">#105</a> </li>
+<li>Default value not working correctly <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/97" class="issue-link" title="Default value not working correctly">#97</a>
+</li>
+<li>Crash with inserting 10000 rows <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/95" class="issue-link" title="Crash with inserting 10000 rows">#95</a>
+</li>
+<li>Importing csv-file deletes spaces bug <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/84" class="issue-link" title="import csv-file deletes spaces">#84</a>
+</li>
+<li>Fix query execution when there is an expression in the limit clause <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/91" class="issue-link" title="expression in limit clause">#91</a>
+</li>
+<li>Don't allow creating indices on views  <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c7c7774031701bfb993b5d50052ae26e4571da06" class="commit-link"><tt>c7c7774</tt></a>
+</li>
+<li>Data browser: only one result filtered. Bottom left we see 0, where there is 1 <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/122" class="issue-link" title="Data browser:  only one result filtered. Bottom left we see 0, where there is 1">#122</a>
+</li>
+<li>Font size too small in log part of "Execute SQL" tab <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/131" class="issue-link" title='Font size too small in log part of "Execute SQL" tab [minor annoyance]'>#131</a>
+</li>
+<li>Grammar parser fails to parse two quotes as used for escaping one <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/128" class="issue-link" title="Grammar parser fails to parse two quotes as used for escaping one">#128</a>
+</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.4.0/sqlitebrowser-3.4.0-win32.exe" rel="nofollow">
+              <small class="text-muted right">9.57 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.4.0-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.4.0/sqlitebrowser-3.4.0.dmg" rel="nofollow">
+              <small class="text-muted right">7.81 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.4.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.4.0/SQLiteDatabaseBrowserPortable_3.4.0_English.paf.exe" rel="nofollow">
+              <small class="text-muted right">9.68 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>SQLiteDatabaseBrowserPortable_3.4.0_English.paf.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.4.0.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.4.0.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+
+
+      <div class="release label-">
+  <div class="release-meta">
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/v3.3.1" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">v3.3.1</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/9758ac48b0674d3c15ea82906fe7157a646581dc">
+            <span class="octicon octicon-git-commit"></span>
+            9758ac4
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/v3.3.1">Database Browser 3.3.1 for SQLite</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@justinclift" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/406299?v=3&amp;s=40" width="20" />
+        <a href="/justinclift">justinclift</a>
+        released this
+          <time datetime="2014-08-31T14:23:49Z" is="relative-time">Aug 31, 2014</time>
+
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <p>This release is purely for the project renaming.  The code itself is the same as the v3.3.0 release.</p>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.3.1/sqlitebrowser-3.3.1-win32.exe" rel="nofollow">
+              <small class="text-muted right">10.4 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.3.1-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.3.1/sqlitebrowser-3.3.1v2.dmg" rel="nofollow">
+              <small class="text-muted right">7.55 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.3.1v2.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.3.1.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.3.1.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+
+
+      <div class="release label-">
+  <div class="release-meta">
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/v3.3.0" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">v3.3.0</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/a8f72e8b5d9ccb7e11bf82890f70bb0c946adbd6">
+            <span class="octicon octicon-git-commit"></span>
+            a8f72e8
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/v3.3.0">SQLite Database Browser 3.3.0</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@rp-" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/689875?v=3&amp;s=40" width="20" />
+        <a href="/rp-">rp-</a>
+        released this
+          <time datetime="2014-08-24T16:33:31Z" is="relative-time">Aug 24, 2014</time>
+
+          &middot;
+
+          <a href="/sqlitebrowser/sqlitebrowser/compare/v3.3.0...v3.3.x">
+            5 commits</a>
+          to v3.3.x
+          since this release
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <h2>Improvements</h2>
+
+<ul>
+<li>Several, several fixes in our SQL grammar parser allowing you to edit more databases using the UI tools.</li>
+<li>Make adding new rows less confusing by showing automatically generated data by default values, triggers or the PK right after the new row is added. <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/6705e8c9f23845a826019347b6bdbd5c030cb913" class="commit-link"><tt>6705e8c</tt></a>
+</li>
+<li>Edit Table dialog: Add option for adding a unique constraint to columns. <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ff50a94eef96830e94db20041abb17dce266d3c0" class="commit-link"><tt>ff50a94</tt></a>
+</li>
+<li>UI improvements: Show line numbers in the SQL log (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/5f4066c351031e5e2633a7e9d4da2e11e7bcf137" class="commit-link"><tt>5f4066c</tt></a>), avoid extreme column widths in the table view showing the results of a SQL statement (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/a3affde7823487febc2178894cd803a6b2d51971" class="commit-link"><tt>a3affde</tt></a>), add a new dock showing the DB schema (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/beae69296cc3eb7840311514ae9648b1991ba26c" class="commit-link"><tt>beae692</tt></a>)</li>
+<li>Add a database schema pane (can be torn off), so the schema can be viewed while in the Execute SQL tab. <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/beae69296cc3eb7840311514ae9648b1991ba26c" class="commit-link"><tt>beae692</tt></a>
+</li>
+<li>Tag name correction in git repo. <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/53" class="issue-link" title="Tag name correction">#53</a>
+</li>
+</ul>
+
+<h2>Translations</h2>
+
+<ul>
+<li>Added a Russian translation. <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/87bda982c1406494c59f74a6c71a31e546cfc216" class="commit-link"><tt>87bda98</tt></a>
+</li>
+<li>We have most of a German translation now.</li>
+</ul>
+
+<h2>Bug fixes</h2>
+
+<ul>
+<li>Fixed a few "crashes when loading database" bugs. <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/56" class="issue-link" title="Crash when opening existing db - OS X Mavericks">#56</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/63" class="issue-link" title="Crashes when loading database">#63</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/77" class="issue-link" title="APPCRASH on opening an SQLite file exported from Android">#77</a>
+</li>
+<li>Fix import of CSV files containing multi-byte Unicode characters. <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/d8bc658df78beac0f95d9292d026c7f8b90adfd8" class="commit-link"><tt>d8bc658</tt></a>
+</li>
+<li>Complete quoting for parameters of some CMake commands. <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/71" class="issue-link" title="Complete quoting for parameters of some CMake commands.">#71</a>
+</li>
+<li>Some comments were corrected. <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/69" class="issue-link" title="some comments were corrected">#69</a>
+</li>
+<li>Compilation warning [-Wformat] fixes. <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/65" class="issue-link" title="Compilation warning [-Wformat]">#65</a>
+</li>
+<li>Outdated version number in src/app.plist file. <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/62" class="issue-link" title="Outdated version number in src/app.plist file">#62</a>
+</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.3.0/sqlitebrowser-3.3.0-win32.exe" rel="nofollow">
+              <small class="text-muted right">10.4 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.3.0-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.3.0/sqlitebrowser-3.3.0.dmg" rel="nofollow">
+              <small class="text-muted right">7.79 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.3.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/v3.3.0/SQLiteDatabaseBrowserPortable_3.3.0_English.paf.exe" rel="nofollow">
+              <small class="text-muted right">10.5 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>SQLiteDatabaseBrowserPortable_3.3.0_English.paf.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.3.0.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/v3.3.0.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+
+
+      <div class="release label-">
+  <div class="release-meta">
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/sqlb-3.2.0" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">sqlb-3.2.0</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/91d618e309a9b3d9a925e67419492c5201674c37">
+            <span class="octicon octicon-git-commit"></span>
+            91d618e
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/sqlb-3.2.0">SQLite Database Browser 3.2.0</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@rp-" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/689875?v=3&amp;s=40" width="20" />
+        <a href="/rp-">rp-</a>
+        released this
+          <time datetime="2014-07-06T08:19:56Z" is="relative-time">Jul 6, 2014</time>
+
+          &middot;
+
+          <a href="/sqlitebrowser/sqlitebrowser/compare/sqlb-3.2.0...sqlb-3.2.x">
+            1 commit</a>
+          to sqlb-3.2.x
+          since this release
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <p>This version is a recommended upgrade from all previous releases.  It has a large number of improvements and bug fixes. <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20" align="absmiddle"></p>
+
+<p>Of special note is the new <strong>Project files</strong> feature, for saving metadata about your SQLite Database files.  Now when you change the onscreen size of columns or the sort order in the browse data tab, enter code in the SQL tab or the like, the new settings are kept between sessions. You don't need to restore them manually every time you load the database file. Just open the project file instead of the database file.</p>
+
+<h2>Improvements</h2>
+
+<ul>
+<li>Add keyboard shortcuts for saving changes and for executing a SQL statement <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/22" class="issue-link" title='Shortcut key for "Write Changes" (to disk)'>#22</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/2136813bd6c8ae23167be6c27e2bd28c64ad2023" class="commit-link"><tt>2136813</tt></a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/682561fbb94b4f8149a47e363d3792771d80e9bb" class="commit-link"><tt>682561f</tt></a>
+</li>
+<li>Add High DPI text rendering support for Mac OSX <a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/21" class="issue-link" title="Add High DPI text rendering support for Mac OSX.">#21</a>
+</li>
+<li>Remember column widths on Browse Data tab? <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/20" class="issue-link" title="Remember column widths on Browse Data tab?">#20</a>
+</li>
+<li>Allow any character as field separator and quote character when importing/exporting CSV files <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/14" class="issue-link" title="Add pipe char '|' as .csv export separator">#14</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/23" class="issue-link" title="Allow for custom field separator when importing CSV files">#23</a>
+</li>
+<li>Added entries for the Help menu <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/13" class="issue-link" title="Entries for the Help menu">#13</a>
+</li>
+<li>Also show temporary tables and views in the UI</li>
+<li>Browse Data Tab: Remember column widths of the current table when changing to another</li>
+<li>Initial code to allow translations of the UI into other languages (work in progress)</li>
+<li>Fixes for building with Qt 5</li>
+</ul>
+
+<h3>Windows only</h3>
+
+<ul>
+<li>Updated the bundled version of SQLite to 3.8.5 <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/32" class="issue-link" title="Update the version of SQLite bundled with Windows">#32</a>
+</li>
+</ul>
+
+<h2>Bug Fixes</h2>
+
+<ul>
+<li>Fix bugs in the SQL grammar parser which broke the UI for some tables, especially when some column constraints were used <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/34" class="issue-link" title="Cannot view tables which use constraint CHECK ... IN ( .... )">#34</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/40" class="issue-link" title="Cannot view table which uses constraint CHECK ... NOT LIKE ...">#40</a> <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/42" class="issue-link" title="Grammar: Support BETWEEN in constraints">#42</a>
+</li>
+<li>Enabling auto-increment toggle doesn't change definition field type to integer <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/24" class="issue-link" title="Enabling auto-increment toggle doesn't change definition field type to integer">#24</a>
+</li>
+<li>Edit Cell Data Dialog: Improve handling of binary data <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/16" class="issue-link" title="Long TEXT values show as (BLOB) since version 3.1.0">#16</a>
+</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/sqlb-3.2.0/sqlitebrowser-3.2.0-win32.exe" rel="nofollow">
+              <small class="text-muted right">10.4 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.2.0-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/sqlb-3.2.0/sqlitebrowser-3.2.0.dmg" rel="nofollow">
+              <small class="text-muted right">7.78 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.2.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/sqlb-3.2.0/SQLiteDatabaseBrowserPortable_3.2.0_English.paf.exe" rel="nofollow">
+              <small class="text-muted right">10.5 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>SQLiteDatabaseBrowserPortable_3.2.0_English.paf.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/sqlb-3.2.0.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/sqlb-3.2.0.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+
+
+      <div class="release label-">
+  <div class="release-meta">
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/sqlb-3.1.0" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">sqlb-3.1.0</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/c6cf4c1d32206ce5327daae8cfc03a35485d92aa">
+            <span class="octicon octicon-git-commit"></span>
+            c6cf4c1
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/sqlb-3.1.0">SQLite Database Browser 3.1.0</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@rp-" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/689875?v=3&amp;s=40" width="20" />
+        <a href="/rp-">rp-</a>
+        released this
+          <time datetime="2014-05-17T08:32:06Z" is="relative-time">May 17, 2014</time>
+
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <p>Changes:</p>
+
+<ul>
+<li>New: Plotting, a quick and dirty way to draw graphs from your table data</li>
+<li>SQlite 3.8.2 grammar fix</li>
+<li>MacOSX: file assocations should be fixed</li>
+<li>Updated icon</li>
+<li>Bi-licensed under MPLv2 and GPLv3</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/sqlb-3.1.0/sqlitebrowser-3.1.0-win32.exe" rel="nofollow">
+              <small class="text-muted right">10.3 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.1.0-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/sqlb-3.1.0/sqlitebrowser-3.1.0.dmg" rel="nofollow">
+              <small class="text-muted right">7.75 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.1.0.dmg</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/sqlb-3.1.0/SQLiteDatabaseBrowserPortable_3.1.0_English.paf.exe" rel="nofollow">
+              <small class="text-muted right">10.4 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>SQLiteDatabaseBrowserPortable_3.1.0_English.paf.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/sqlb-3.1.0.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/sqlb-3.1.0.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+
+
+      <div class="release label-">
+  <div class="release-meta">
+
+      <ul class="tag-references">
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/tree/sqlb-3.0.3" class="css-truncate">
+            <span class="octicon octicon-tag"></span>
+            <span class="css-truncate-target">sqlb-3.0.3</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/sqlitebrowser/sqlitebrowser/commit/fbb6fe5addda4a40f9d167b3997d5e363623bbf6">
+            <span class="octicon octicon-git-commit"></span>
+            fbb6fe5
+          </a>
+        </li>
+      </ul>
+
+  </div><!-- /.meta -->
+
+  <div class="release-body commit open">
+    <div class="release-header">
+
+      <h1 class="release-title">
+        <a href="/sqlitebrowser/sqlitebrowser/releases/tag/sqlb-3.0.3">SQLite Database Browser 3.0.3</a>
+      </h1>
+      <p class="release-authorship">
+        <img alt="@justinclift" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/406299?v=3&amp;s=40" width="20" />
+        <a href="/justinclift">justinclift</a>
+        released this
+          <time datetime="2014-04-28T20:12:56Z" is="relative-time">Apr 28, 2014</time>
+
+          &middot;
+
+          <a href="/sqlitebrowser/sqlitebrowser/compare/sqlb-3.0.3...master">
+            642 commits</a>
+          to master
+          since this release
+      </p>
+    </div>
+
+      <div class="markdown-body">
+        <p>SQLite Database Browser 3.0.3</p>
+
+<p>Changes:</p>
+
+<ul>
+<li>Fix crash if there is no new line in a comment add the end of a statement <a href="https://github.com/rp-/sqlitebrowser/issues/40" class="issue-link" title="Query ending with comments causes a crash">rp-/sqlitebrowser#40</a>
+</li>
+<li>Cleanup UI if database is closed <a href="https://github.com/rp-/sqlitebrowser/issues/44" class="issue-link" title="Close Database does not clear UI">rp-/sqlitebrowser#44</a>
+</li>
+<li>Sort objects by name in the structure tab</li>
+<li>Preselect currently selected table in the CVS export dialog <a href="https://github.com/rp-/sqlitebrowser/issues/41" class="issue-link" title=" Export to CSV user interface suggestions">rp-/sqlitebrowser#41</a>
+</li>
+<li>Fix parsing some CREATE TABLE statements with DEFAULT column constraint</li>
+<li>Fix broken update checker for windows</li>
+</ul>
+      </div>
+
+      <h2 class="release-downloads-header">Downloads</h2>
+      <ul class="release-downloads">
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/releases/download/sqlb-3.0.3/sqlitebrowser-3.0.3-win32.exe" rel="nofollow">
+              <small class="text-muted right">10.1 MB</small>
+              <span class="octicon octicon-package left text-muted"></span>
+              <strong>sqlitebrowser-3.0.3-win32.exe</strong>
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/sqlb-3.0.3.zip" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (zip)
+            </a>
+          </li>
+          <li>
+            <a href="/sqlitebrowser/sqlitebrowser/archive/sqlb-3.0.3.tar.gz" rel="nofollow">
+              <span class="octicon octicon-file-zip text-muted"></span>
+              <strong>Source code</strong> (tar.gz)
+            </a>
+          </li>
+      </ul>
+
+  </div><!-- /.release-body -->
+</div><!-- /.release -->
+
+
+</div>
+
+<div data-pjax class="paginate-container">
+  <div class="pagination"><span class="disabled">Previous</span><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases?after=sqlb-3.0.3" rel="nofollow">Next</a></div>
+</div>
+
+        </div>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+  </div>
+
+
+    </div>
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.10812s from github-fe140-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-f8473dece7242da6a20d52313634881b3975c52cebaa1e6c38157c0f26185691.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-29b731620373d510227f8d67ff64cca1a52a6fb5f88f49d60ab0c39d1016a865.js"></script>
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+
