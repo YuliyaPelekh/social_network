@@ -8,11 +8,9 @@
 
 .center {
   text-align: center;
-}
-
-.center h1 {
-  margin-bottom: 10px;
-}
+    h1 {
+    margin-bottom: 10px;
+  }}
 
 /* footer */
 
@@ -36,3 +34,13 @@ footer {
       float: left;
       margin-left: 10px;
    }}}
+
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  box_sizing: border-box;
+}
