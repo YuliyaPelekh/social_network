@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
   resources :users
+  resources :sessions, only: [:new, :create, :destroy]
 
   root 'static_pages#home' 
+
+  get '/signin',  to: 'sessions#new', as: :signin
+  delete '/signout', to: 'sessions#destroy', as: :signout
 
   get '/signup' => 'users#new', as: :signup
 
