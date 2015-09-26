@@ -49,3 +49,28 @@ aside {
 	background: #E5FCE8;
 	color: #8DBC93;
 }
+.edit {
+  .gravatar{
+    position: absolute;
+    left:150px;
+    bottom:400px;}
+  .gravatar_1{
+    position: absolute;
+    left:150px;
+}}
+
+
+/* Users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid gray;
+    &:last-child {
+      border-bottom: 1px solid gray;
+    }
+  }
+}
