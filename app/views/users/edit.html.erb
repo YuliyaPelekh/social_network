@@ -3,7 +3,7 @@
   <div class="form col-md-6">
     <h1 class='center'>Update your profile</h1>
     <%= form_for(@user) do |f| %>
-      <%= render 'shared/error_messages' %>
+      <%= render 'shared/error_messages', object: f.object %>
       <div class="form-group">
       <%= f.label :name %>
       <%= f.text_field :name, class: "form-control" %>

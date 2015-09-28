@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 
 
   def index
-    @users = User.paginate(page: params[:page])
+    @users = User.paginate(page: params[:page], per_page: 15)
   end
 
   def new
@@ -14,6 +14,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @microposts = @user.microposts.paginate(page: params[:page], per_page: 15)
   end
   
   def create
@@ -51,11 +52,6 @@ class UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:name, :email, :password,
                                    :password_confirmation)
-    end
-
-    def signed_in_user
-      store_location
-      redirect_to signin_url, notice: "Please sign in." unless signed_in?
     end
 
     def correct_user
